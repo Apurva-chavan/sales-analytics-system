@@ -1,3 +1,5 @@
+# Contains sales analytics and aggregation functions
+
 from collections import defaultdict
 
 def calculate_total_revenue(transactions):
