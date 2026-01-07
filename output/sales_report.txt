@@ -1,0 +1,4 @@
+Sales Analytics Report
+======================
+Valid Transactions: 70
+Invalid Transactions: 5

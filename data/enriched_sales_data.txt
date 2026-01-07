@@ -1,0 +1,71 @@
+TransactionID|ProductName|API_Category|API_Rating|API_Match
+T018|USB Cable|Unknown|N/A|False
+T023|Wireless Mouse|Unknown|N/A|False
+T059|Mouse,Wireless|Unknown|N/A|False
+T035|Mouse|Unknown|N/A|False
+T061|Wireless Mouse|Unknown|N/A|False
+T057|Laptop,Premium|Unknown|N/A|False
+T034|USB Cable|Unknown|N/A|False
+T050|Monitor,LED|Unknown|N/A|False
+T024|Wireless Mouse|Unknown|N/A|False
+T004|Wireless Mouse|Unknown|N/A|False
+T064|Wireless Mouse|Unknown|N/A|False
+T045|External Hard Drive|Unknown|N/A|False
+T015|Webcam|Unknown|N/A|False
+T055|Webcam,HD|Unknown|N/A|False
+T072|Keyboard|Unknown|N/A|False
+T002|Mouse|Unknown|N/A|False
+T051|Laptop,Premium|Unknown|N/A|False
+T005|Laptop Charger|Unknown|N/A|False
+T007|Mouse|Unknown|N/A|False
+T010|Laptop Charger|Unknown|N/A|False
+T032|Keyboard|Unknown|N/A|False
+T008|Laptop Charger|Unknown|N/A|False
+T060|External Hard Drive,1TB|Unknown|N/A|False
+T062|Mouse|Unknown|N/A|False
+T003|Laptop|laptops|3.95|True
+T022|USB Cable|Unknown|N/A|False
+T046|Mouse,Wireless|Unknown|N/A|False
+T049|Wireless Mouse,Gaming|Unknown|N/A|False
+T006|USB Cable|Unknown|N/A|False
+T011|Webcam|Unknown|N/A|False
+T031|Mouse|Unknown|N/A|False
+T033|Monitor|Unknown|N/A|False
+T058|Wireless Mouse,Gaming|Unknown|N/A|False
+T073|USB Cable|Unknown|N/A|False
+T029|Laptop Charger|Unknown|N/A|False
+T030|Webcam|Unknown|N/A|False
+T021|Mouse|Unknown|N/A|False
+X2|Laptop Charger|Unknown|N/A|False
+T028|Headphones|Unknown|N/A|False
+T014|Wireless Mouse|Unknown|N/A|False
+T019|Monitor|Unknown|N/A|False
+T054|Laptop Charger,65W|Unknown|N/A|False
+T001|Mouse|Unknown|N/A|False
+T036|Laptop Charger|Unknown|N/A|False
+X611|Webcam|Unknown|N/A|False
+T020|Laptop Charger|Unknown|N/A|False
+T037|Mouse|Unknown|N/A|False
+X395|USB Cable|Unknown|N/A|False
+T012|External Hard Drive|Unknown|N/A|False
+T048|Laptop,Premium|Unknown|N/A|False
+T044|Keyboard|Unknown|N/A|False
+T025|Webcam|Unknown|N/A|False
+T027|Webcam|Unknown|N/A|False
+T013|Monitor|Unknown|N/A|False
+T017|Mouse|Unknown|N/A|False
+T038|Headphones|Unknown|N/A|False
+T052|Laptop,Premium|Unknown|N/A|False
+T042|Mouse|Unknown|N/A|False
+T053|Monitor,LED|Unknown|N/A|False
+T040|USB Cable|Unknown|N/A|False
+T039|Monitor|Unknown|N/A|False
+T016|Laptop|laptops|3.95|True
+T041|Headphones|Unknown|N/A|False
+T043|Monitor|Unknown|N/A|False
+T009|USB Cable|Unknown|N/A|False
+T056|Keyboard,Mechanical|Unknown|N/A|False
+T047|External Hard Drive,1TB|Unknown|N/A|False
+T026|Wireless Mouse|Unknown|N/A|False
+T069|USB Cable|Unknown|N/A|False
+T067|Wireless Mouse|Unknown|N/A|False
