@@ -83,3 +83,6 @@ sales-analytics-system/
 ### Step 1: Install Dependencies
 ```bash
 pip install -r requirements.txt
+
+---
+Final submission prepared for academic evaluation.
