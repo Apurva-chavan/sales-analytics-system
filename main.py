@@ -18,6 +18,7 @@ from utils.api_handler import (
     enrich_sales_data,
     save_enriched_data
 )
+from utils.report_generator import generate_report
 
 
 def main():
@@ -47,11 +48,16 @@ def main():
         valid_transactions, invalid_transactions = validate_transactions(parsed_transactions)
         print(f"✓ Valid: {len(valid_transactions)} | Invalid: {len(invalid_transactions)}")
 
-        # [5/10] Analysis (NO detailed printing as per assignment)
-        print("\n[5/10] Analyzing sales data...")
-        calculate_total_revenue(valid_transactions)
-        region_wise_sales(valid_transactions)
+        total_revenue = calculate_total_revenue(valid_transactions)
+        region_sales = region_wise_sales(valid_transactions)
+
+        analysis_result = {
+        "total_revenue": total_revenue,
+        "region_sales": region_sales
+        }
+
         print("✓ Analysis complete")
+
 
         # [6/10] API fetch
         print("\n[6/10] Fetching product data from API...")
@@ -71,15 +77,14 @@ def main():
         save_enriched_data(enriched_data)
         print("✓ Saved to: data/enriched_sales_data.txt")
 
-        # [9/10] Generate report
         print("\n[9/10] Generating report...")
-        with open("output/sales_report.txt", "w", encoding="utf-8") as report:
-            report.write("Sales Analytics Report\n")
-            report.write("======================\n")
-            report.write(f"Valid Transactions: {len(valid_transactions)}\n")
-            report.write(f"Invalid Transactions: {len(invalid_transactions)}\n")
+        report_path = generate_report(
+        valid_transactions,
+        len(invalid_transactions),
+        analysis_result
+        )
+        print(f"✓ Report saved to: {report_path}")
 
-        print("✓ Report saved to: output/sales_report.txt")
 
         # [10/10] Done
         print("\n[10/10] Process Complete!")

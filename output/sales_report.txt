@@ -1,4 +1,20 @@
 Sales Analytics Report
 ======================
+
+Validation Summary
+------------------
 Valid Transactions: 70
 Invalid Transactions: 5
+
+Revenue Summary
+---------------
+Total Revenue: ₹3492036.0
+
+Region-wise Sales
+-----------------
+South: ₹883278.0
+North: ₹1355357.0
+West: ₹822780.0
+East: ₹430621.0
+
+End of Report
