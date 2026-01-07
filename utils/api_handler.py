@@ -1,3 +1,5 @@
+# Integrates external product API and enrichment logic
+
 import os
 import requests
 
