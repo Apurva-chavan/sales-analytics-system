@@ -1,3 +1,5 @@
+# Handles file reading, parsing, and validation
+
 import os
 
 def read_sales_data(filename="data/sales_data.txt"):
